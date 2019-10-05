@@ -106,7 +106,7 @@ setup(
         'bs4==0.0.1',
         'requests==2.18.4',
         'requests-unixsocket==0.1.5',
-        'urllib3==1.22',
+        'urllib3==1.24.2',
         'beautifulsoup4==4.8.0',
         'lxml==4.3.3'
         #  'fabric==2.4.0',
