@@ -104,7 +104,7 @@ setup(
     keywords=['testing', 'logging', 'functional', 'selenium', 'test', 'gigas'],
     install_requires=[
         'bs4==0.0.1',
-        'requests==2.18.4',
+        'requests==2.20.0',
         'requests-unixsocket==0.1.5',
         'urllib3==1.22',
         'beautifulsoup4==4.8.0',
