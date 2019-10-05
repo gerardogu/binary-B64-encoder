@@ -2,10 +2,10 @@
 
 Este script permite codificar correctamente ficheros binarios y de texto a base64
 
-Requiere Python 3. Para instalarlo simplemente ejecuta:
+Requiere Python 2.7. Para instalarlo simplemente ejecuta:
 
 <pre>
-    pip3 install binary_B64_encoder
+    pip install binary_B64_encoder
 </pre>
 
 Despues ejecutar:
