@@ -114,7 +114,7 @@ setup(
         'pytest-dependency',
     ],
     entry_points={
-        'console_scripts': ['binary-B64-encoder=binary-B64-encoder.b64encode:main'],
+        'console_scripts': ['b64encode=binary_B64_encoder.b64encode:main'],
     },
     classifiers=[
         'Development Status :: 4 - Beta',
