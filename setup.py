@@ -99,7 +99,7 @@ setup(
     author='Gerardo Testing ',
     author_email='gerardo.garcia.urtiaga@gmail.com',
     url='https://aprendeit.com',
-    download_url='https://gitlab.gigas.local/systeam/explotacion/hw_all_chassis_report/-/archive/master/hw_all_chassis_report-master.tar'.format(
+    download_url='https://github.com/gerardogu/binary-B64-encoder/archive/master.zip'.format(
         VERSION),
     keywords=['testing', 'logging', 'functional', 'selenium', 'test', 'gigas'],
     install_requires=[
