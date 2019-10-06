@@ -8,7 +8,7 @@ from os import path
 from setuptools import setup, find_packages
 from sys import version_info
 
-VERSION = "1.0.6"
+VERSION = "1.0.7"
 CURR_PATH = "{}{}".format(path.abspath(path.dirname(__file__)), '/')
 
 
@@ -95,8 +95,8 @@ setup(
     license=read("LICENSE", is_encoding=False, ignore_raises=True),
     packages=find_packages(),
     description='This script encode the binary input file to base64',
-    long_description=read("README.md"),
     long_description_content_type='text/markdown',
+    long_description=read("README.md"),
     author='Gerardo G. Urtiaga ',
     author_email='gerardo.garcia.urtiaga@gmail.com',
     url='https://github.com/gerardogu/binary-B64-encoder',
