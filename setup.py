@@ -8,7 +8,7 @@ from os import path
 from setuptools import setup, find_packages
 from sys import version_info
 
-VERSION = "1.0.1"
+VERSION = "1.0.2"
 CURR_PATH = "{}{}".format(path.abspath(path.dirname(__file__)), '/')
 
 
@@ -106,7 +106,6 @@ setup(
         'argparse',
         'binascii',
         'codecs'
-        #  'fabric==2.4.0',
     ],
     setup_requires=['pexpect'],
     tests_require=[
@@ -118,14 +117,10 @@ setup(
     entry_points={
         'console_scripts': ['b64encode=binary_B64_encoder.b64encode:main'],
     },
-    classifiers=[
-        'Development Status :: 4 - Beta',
-        'Intended Audience :: Developers',
-        'Topic :: Software Development :: Build Tools',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3.4',
-        'Programming Language :: Python :: 3.5',
-        'Programming Language :: Python :: 3.6',
-        'Programming Language :: Python :: 3.7',
-    ],
+    #classifiers=[
+        #'Development Status :: 4 - Beta',
+        #'Intended Audience :: Developers',
+        #'Topic :: Software Development :: Build Tools',
+        #'Programming Language :: Python :: 2.7',
+    #],
 )
