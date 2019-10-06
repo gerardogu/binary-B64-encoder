@@ -90,13 +90,13 @@ def read(file_name=None, is_encoding=True, ignore_raises=False):
 
 
 setup(
-    name='binary-B64-encoder',
+    name='binary_B64_encoder',
     version=VERSION,
     license=read("LICENSE", is_encoding=False, ignore_raises=True),
     packages=find_packages(),
-    description='This script makes a report of hp hw infrastructure',
+    description='This script encode the binary input file to base64',
     long_description=read("README.md"),
-    author='Gerardo Testing ',
+    author='Gerardo G. Urtiaga ',
     author_email='gerardo.garcia.urtiaga@gmail.com',
     url='https://aprendeit.com',
     download_url='https://github.com/gerardogu/binary-B64-encoder/archive/master.zip'.format(
