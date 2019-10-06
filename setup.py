@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""gigas_get_hypervisor_screenshot module can be installed and configured from here"""
+"""binary_B64_encoder module can be installed and configured from here"""
 
 
 
@@ -8,7 +8,7 @@ from os import path
 from setuptools import setup, find_packages
 from sys import version_info
 
-VERSION = "1.0.4"
+VERSION = "1.0.5"
 CURR_PATH = "{}{}".format(path.abspath(path.dirname(__file__)), '/')
 
 
@@ -101,11 +101,11 @@ setup(
     url='https://github.com/gerardogu/binary-B64-encoder',
     download_url='https://github.com/gerardogu/binary-B64-encoder/tarball/{version}'.format(
         version=VERSION),
-    keywords=['testing', 'logging', 'functional', 'selenium', 'test', 'gigas'],
+    keywords=['b64encode', 'base 64', 'b64', 'binary_B64_encoder', 'file base64'],
     install_requires=[
         'argparse',
     ],
-    setup_requires=['pexpect'],
+    setup_requires=['argparse'],
     tests_require=[
         'pytest==3.9.3',
         'pytest-cov',
