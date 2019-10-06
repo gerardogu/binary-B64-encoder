@@ -4,13 +4,12 @@ Este script permite codificar correctamente ficheros binarios y de texto a base6
 
 Requiere Python 2.7. Para instalarlo simplemente ejecuta:
 
-<pre>
-    pip install binary_B64_encoder
-</pre>
+```
+pip install binary_B64_encoder
+```
 
 Despues ejecutar:
 
-<pre>
-    ger@ger:/tmp$ binary-B64-encoder
-</pre>
-
+```
+ger@ger:/tmp$ binary-B64-encoder
+```
