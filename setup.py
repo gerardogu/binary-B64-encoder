@@ -104,8 +104,6 @@ setup(
     keywords=['testing', 'logging', 'functional', 'selenium', 'test', 'gigas'],
     install_requires=[
         'argparse',
-        'binascii',
-        'codecs'
     ],
     setup_requires=['pexpect'],
     tests_require=[
