@@ -8,7 +8,7 @@ from os import path
 from setuptools import setup, find_packages
 from sys import version_info
 
-VERSION = "2.0.0"
+VERSION = "1.0.1"
 CURR_PATH = "{}{}".format(path.abspath(path.dirname(__file__)), '/')
 
 
@@ -98,12 +98,14 @@ setup(
     long_description=read("README.md"),
     author='Gerardo G. Urtiaga ',
     author_email='gerardo.garcia.urtiaga@gmail.com',
-    url='https://aprendeit.com',
-    download_url='https://github.com/gerardogu/binary-B64-encoder/archive/master.zip'.format(
-        VERSION),
+    url='https://github.com/gerardogu/binary-B64-encoder',
+    download_url='https://github.com/gerardogu/binary-B64-encoder/tarball/{version}'.format(
+        version=VERSION),
     keywords=['testing', 'logging', 'functional', 'selenium', 'test', 'gigas'],
     install_requires=[
-        'requests'
+        'argparse',
+        'binascii',
+        'codecs'
         #  'fabric==2.4.0',
     ],
     setup_requires=['pexpect'],
