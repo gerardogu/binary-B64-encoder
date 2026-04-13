@@ -108,7 +108,7 @@ setup(
     ],
     setup_requires=['argparse'],
     tests_require=[
-        'pytest==3.9.3',
+        'pytest==9.0.3',
         'pytest-cov',
         'pytest-html',
         'pytest-dependency',
